@@ -50,8 +50,8 @@ See attached report for a further example.
 ## Improvements
 
 At the time of writing, I was not aware of `mpi_broadcast`, and hence there is a significant performance hit as the number of compute nodes increases (unmentioned in the performance report).
-As I no longer have access to the university's compute cluster, I am not able to test/verify the performance of the program using broadcasting. I have instead
-created an experimental branch implementing these features.
+As I no longer have access to the university's compute cluster, I am not able to test/verify the performance of the program using broadcasting. ~~I have instead
+created an experimental branch implementing these features.~~ (This would require a significant rewrite, and hence will not be happening in the foreseeable future)
 
 ## Learning HPC?
 
